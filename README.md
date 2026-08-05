@@ -23,9 +23,10 @@ A responsive, multi-page business website built with **React**, **Vite**, and **
 
 ## Getting Started
 
-npm install
-npm run dev
-```
+-npm install
+
+-npm run dev
+
 
 ## Project Structure
 
