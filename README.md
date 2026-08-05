@@ -1,16 +1,36 @@
-# React + Vite
+# React Business Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, multi-page business website built with **React**, **Vite**, and **React Router** — featuring a product catalog, an interactive image gallery, page transitions, and a fully responsive layout for mobile, tablet, and desktop.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Client-side routing** with React Router — separate pages for Home, About, Products, Gallery, and Contact
+- **Responsive design** — custom mobile navigation (hamburger menu), fluid layouts, and breakpoints across all pages
+- **Image carousel** built with Swiper.js, including fade transitions and autoplay
+- **Product catalog page** with a filterable, data-driven grid of categories
+- **Gallery page** with category filtering (Projects / Products) and a custom lightbox for viewing images full-size
+- **Page transition animations** on route change
+- **Sticky header** with quick-access contact info and Google Maps integration
+- **Quick contact section** linking directly to phone, email, WhatsApp, and Instagram
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- React Router
+- Swiper.js
+- Custom CSS (no UI framework)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm install
+npm run dev
+```
+
+## Project Structure
+
+The project follows a component-based structure, with reusable components (Header, Footer) separated from page-specific components (Home sections, About, Products, Gallery, Contact).
+
+---
+
+*This project was built as a real-world website for a local business, focusing on clean component architecture, responsive design, and smooth user experience.*
