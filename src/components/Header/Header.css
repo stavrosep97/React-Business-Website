@@ -1,0 +1,176 @@
+
+
+.top-bar {
+  background-color: #5C636E; 
+  color: #F2F2F2; 
+  font-size: 0.9rem;
+  padding: 10px 20px;
+  border-bottom: 1px solid #5C636E;
+  font-family: sans-serif;
+}
+
+.top-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.top-bar-left, .top-bar-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.top-bar-right a {
+  color: #F2F2F2;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+/* Hover στο Top Bar με το πορτοκαλί σου (#F96D00) */
+.top-bar-right a:hover {
+  color: #F96D00; 
+}
+
+/* Το κυρίως Header παίρνει το σκούρο γκρι (#393E46) */
+header {
+  background-color: #393E46; 
+  padding: 15px 20px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logoimg {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logo h1 {
+  font-size: 1.6rem;
+  margin: 0;
+  color: #F2F2F2; 
+  font-family: sans-serif;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 25px;
+}
+
+nav ul li a {
+  color: #F2F2F2;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.3rem;
+  transition: color 0.2s ease;
+}
+
+
+nav ul li a:hover {
+  color: #F96D00; 
+}
+
+@media (max-width: 768px) {
+  .top-bar-container {
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+  }
+}
+
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px; 
+}
+
+
+.top-bar-left a {
+  color: #F2F2F2;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.top-bar-left a:hover {
+  color: #F96D00;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #F2F2F2;
+  font-size: 1.8rem;
+  cursor: pointer;
+  z-index: 200;
+}
+
+@media (max-width: 768px) {
+  /* Κρύψε κανονικά το μενού */
+  header .container {
+    position: relative;
+    justify-content: flex-end;
+    min-height: 70px;
+  }
+
+  
+  .logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+  }
+
+
+  .menu-toggle {
+    display: block;
+    margin-right: 300px;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #393E46;
+    padding: 20px;
+    gap: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  nav.nav-open ul {
+    display: flex;
+  }
+}

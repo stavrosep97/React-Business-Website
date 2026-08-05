@@ -1,0 +1,144 @@
+.wwd-section {
+  width: 100%;
+  padding: 90px 20px;
+  background-color: #393E46;
+  position: relative;
+  overflow: hidden;
+}
+
+.wwd-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Αριστερό κείμενο */
+.wwd-text {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wwd-label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #F96D00;
+  margin-bottom: 12px;
+}
+
+.wwd-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #F2F2F2;
+  line-height: 1.2;
+  margin: 0 0 20px 0;
+}
+
+.wwd-divider {
+  width: 60px;
+  height: 4px;
+  background-color: #F96D00;
+  border-radius: 2px;
+  margin-bottom: 24px;
+}
+
+.wwd-paragraph {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #cfd3d8;
+  margin-bottom: 30px;
+  max-width: 420px;
+  text-align: justify;
+}
+
+.wwd-btn {
+  display: inline-block;
+  width: fit-content;
+  padding: 16px 32px;
+  background-color: #F96D00;
+  color: #F2F2F2;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.wwd-btn:hover {
+  background-color: #d85f00;
+  transform: translateY(-2px);
+}
+
+/* Δεξιά κάρτες */
+.wwd-cards {
+  flex: 2;
+  display: flex;
+  gap: 20px;
+}
+
+.wwd-card {
+  position: relative;
+  flex: 1;
+  height: 460px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.wwd-card:hover {
+  transform: translateY(-8px);
+}
+
+.wwd-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.wwd-card-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px 0;
+  text-align: center;
+  background-color: rgba(57, 62, 70, 0.75);
+  color: #F2F2F2;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 1000px) {
+  .wwd-container {
+    flex-direction: column;
+  }
+
+  .wwd-cards {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .wwd-card {
+    height: 320px;
+  }
+
+  .wwd-text {
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .wwd-title {
+    font-size: 2rem;
+  }
+}
