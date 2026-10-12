@@ -94,7 +94,7 @@ export default function ContactPage() {
                     <div className="contact-map">
                         <iframe
                             title="Modern Home Location"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.757430615673!2d32.4227937!3d34.7868814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e7078ac01bfed5%3A0x8a62d035e3c0b48a!2sMODERN%20HOME!5e0!3m2!1sen!2s!4v1783507733256!5m2!1sen!2s"
+                            src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.7574316927503!2d32.42021877555018!3d34.786881372889255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e7078ac01bfed5%3A0x8a62d035e3c0b48a!2sMODERN%20HOME!5e0!3m2!1sen!2s!4v1791820749532!5m2!1sen!2s'
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}
