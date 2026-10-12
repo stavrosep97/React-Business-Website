@@ -14,7 +14,7 @@ export default function HomeCarousel() {
   const slidesData = [
     {
       id: 1,
-      image: '/images/carousel1.jpg',
+      image: '/images/carousel1.webp',
       title: 'Shading Systems & Curtains',
       subtitle: 'Light & Style',
       buttonText: 'VIEW PRODUCTS',
@@ -22,7 +22,7 @@ export default function HomeCarousel() {
     },
     {
       id: 2,
-      image: '/images/carousel2.jpg',
+      image: '/images/carousel2.webp',
       title: 'Modern Roller Blinds',
       subtitle: 'Solutions for every space',
       buttonText: 'CHECK OUT OUR GALLERY',
@@ -30,7 +30,7 @@ export default function HomeCarousel() {
     },
     {
       id: 3,
-      image: '/images/carousel3.jpg',
+      image: '/images/carousel3.webp',
       title: 'Custom Made Solutions',
       subtitle: 'Tailored to your needs',
       buttonText: 'CONTACT US',

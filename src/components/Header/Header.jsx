@@ -30,7 +30,7 @@ export default function Header() {
         <div className="container">
           <div className="logo">
             <Link to="/" onClick={closeMenu}>
-              <img className="logoimg" src="/images/logo.jpg" alt="Modern Home Logo" />
+              <img className="logoimg" src="/images/logo.webp" alt="Modern Home Logo" />
             </Link>
           </div>
 

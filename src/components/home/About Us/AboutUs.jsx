@@ -7,7 +7,7 @@ export default function AboutUs() {
     <section className="about-section" id="about">
       <div className="about-container">
         <div className="about-image">
-          <img src="/images/shop.jpg" alt="Modern Home - Ο χώρος μας" />
+          <img src="/images/shop.webp" alt="Modern Home - Ο χώρος μας" />
         </div>
 
         <div className="about-text">

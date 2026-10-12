@@ -5,7 +5,7 @@ export default function AboutPage() {
         <>
             <section className="hero-section">
                 <div className="hero-img">
-                    <img src="/images/jukimachine.jpg" alt="AboutUsImage" />
+                    <img src="/images/jukimachine.webp" alt="AboutUsImage" />
                 </div>
 
                 <div className="hero-text">

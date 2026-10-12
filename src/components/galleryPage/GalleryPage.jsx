@@ -10,47 +10,47 @@ export default function GalleryPage() {
         {
             id: 1,
             category: 'projects',
-            image: '/images/gallery/combi-2-project.jpg',
+            image: '/images/gallery/combi-2-project.webp',
             title: 'Combi Blinds & Cushion Styling',
         },
         {
             id: 2,
             category: 'projects',
-            image: '/images/gallery/roller-blinds-4-projects.jpg',
+            image: '/images/gallery/roller-blinds-4-projects.webp',
             title: 'Roller Blinds Installation',
         },
         {
             id: 3,
             category: 'projects',
-            image: '/images/gallery/cushion-1-project.jpg',
+            image: '/images/gallery/cushion-1-project.webp',
             title: 'Poolside Cushions',
         },
 
         {
             id: 4,
             category: 'projects',
-            image: '/images/gallery/curtain-7-project.jpg',
+            image: '/images/gallery/curtain-7-project.webp',
             title: 'Bedroom Custom Curtains',
         },
 
         {
             id: 5,
             category: 'projects',
-            image: '/images/gallery/living room rugs.jpg',
+            image: '/images/gallery/living room rugs.webp',
             title: 'Living Room Rugs',
         },
 
          {
             id: 6,
             category: 'projects',
-            image: '/images/gallery/curtain1-project.jpg',
+            image: '/images/gallery/curtain1-project.webp',
             title: 'Custom Made Curtains',
         },
 
          {
             id: 7,
             category: 'projects',
-            image: '/images/gallery/curtain-3-project.jpg',
+            image: '/images/gallery/curtain-3-project.webp',
             title: 'Living Room Makeover',
         },
 
@@ -58,84 +58,84 @@ export default function GalleryPage() {
          {
             id: 8,
             category: 'projects',
-            image: '/images/gallery/curtain-6-project.jpg',
+            image: '/images/gallery/curtain-6-project.webp',
             title: 'Wavy Curtains',
         },
 
          {
             id: 9,
             category: 'projects',
-            image: '/images/gallery/curtain-9-project.jpg',
+            image: '/images/gallery/curtain-9-project.webp',
             title: 'Patterned Sheers',
         },
 
           {
             id: 10,
             category: 'projects',
-            image: '/images/gallery/roller-blinds-1-project.jpg',
+            image: '/images/gallery/roller-blinds-1-project.webp',
             title: 'Kitchen Roller Blinds',
         },
 
           {
             id: 11,
             category: 'projects',
-            image: '/images/gallery/roller-blinds-2-projects.jpg',
+            image: '/images/gallery/roller-blinds-2-projects.webp',
             title: 'Kitchen Roller Blinds',
         },
         
          {
             id: 12,
             category: 'projects',
-            image: '/images/gallery/cushion-4-product.jpg',
+            image: '/images/gallery/cushion-4-product.webp',
             title: 'Sofa Decor Cushions',
         },
 
          {
             id: 13,
             category: 'projects',
-            image: '/images/gallery/awnings-1-project.jpg',
+            image: '/images/gallery/awnings-1-project.webp',
             title: 'Outdoor Awning',
         },
 
          {
             id: 14,
             category: 'projects',
-            image: '/images/gallery/curtain-10-project.jpg',
+            image: '/images/gallery/curtain-10-project.webp',
             title: 'Bedroom Custom Curtains',
         },
 
         {
             id: 15,
             category: 'projects',
-            image: '/images/gallery/roller-blinds-5-project.jpg',
+            image: '/images/gallery/roller-blinds-5-project.webp',
             title: 'Textured Roller Blind',
         },
 
         {
             id: 16,
             category: 'projects',
-            image: '/images/gallery/curtain-11-project.jpg',
+            image: '/images/gallery/curtain-11-project.webp',
             title: 'Layered Window Treatment',
         },
 
         {
             id: 17,
             category: 'projects',
-            image: '/images/gallery/curtain-12-project.jpg',
+            image: '/images/gallery/curtain-12-project.webp',
             title: 'Layered Window Treatment',
         },
 
         {
             id: 18,
             category: 'projects',
-            image: '/images/gallery/curtains-13.jpg',
+            image: '/images/gallery/curtains-13.webp',
             title: 'Layered Window Treatment',
         },
 
         {
             id: 19,
             category: 'projects',
-            image: '/images/gallery/curtains-14.jpg',
+            image: '/images/gallery/curtains-14.webp',
             title: 'Layered Window Treatment',
         },
 
@@ -149,63 +149,63 @@ export default function GalleryPage() {
          {
             id: 20,
             category: 'products',
-            image: '/images/gallery/towels-1-products.jpg',
+            image: '/images/gallery/towels-1-products.webp',
             title: 'Bath Towels',
         },
 
         {
             id: 21,
             category: 'products',
-            image: '/images/gallery/towels-2-products.jpg',
+            image: '/images/gallery/towels-2-products.webp',
             title: 'Face Towels',
         },
 
         {
             id: 22,
             category: 'products',
-            image: '/images/gallery/towels-3-products.jpg',
+            image: '/images/gallery/towels-3-products.webp',
             title: 'Face Towels',
         },
 
         {
             id: 23,
             category: 'products',
-            image: '/images/gallery/cushion-1-product.jpg',
+            image: '/images/gallery/cushion-1-product.webp',
             title: 'A Big Selection Of Handmade Cushions',
         },
 
         {
             id: 24,
             category: 'products',
-            image: '/images/gallery/cushion-2-product.jpg',
+            image: '/images/gallery/cushion-2-product.webp',
             title: 'Decor Cushions',
         },
 
         {
             id: 25,
             category: 'products',
-            image: '/images/gallery/cushion-3-product.jpg',
+            image: '/images/gallery/cushion-3-product.webp',
             title: 'Decor Cushions',
         },
 
         {
             id: 26,
             category: 'products',
-            image: '/images/gallery/cushion-6-product.jpg',
+            image: '/images/gallery/cushion-6-product.webp',
             title: 'Decor Cushions',
         },
 
         {
             id: 27,
             category: 'products',
-            image: '/images/gallery/cushion-7-product.jpg',
+            image: '/images/gallery/cushion-7-product.webp',
             title: 'Decor Cushions',
         },
 
         {
             id: 28,
             category: 'products',
-            image: '/images/gallery/bedsheets-1-products.jpg',
+            image: '/images/gallery/bedsheets-1-products.webp',
             title: 'Wide Selection of Bedsheets',
         },
 

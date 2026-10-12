@@ -4,17 +4,17 @@ export default function WhatWeDo() {
   const services = [
     {
       id: 1,
-      image: '/images/services1.jpg',
+      image: '/images/services1.webp',
       title: 'Curtains',
     },
     {
       id: 2,
-      image: '/images/services2.jpg',
+      image: '/images/services2.webp',
       title: 'Shading Systems',
     },
     {
       id: 3,
-      image: '/images/services3.jpg',
+      image: '/images/services3.webp',
       title: 'Decor',
     },
   ];
