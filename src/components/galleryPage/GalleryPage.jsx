@@ -125,6 +125,21 @@ export default function GalleryPage() {
             title: 'Layered Window Treatment',
         },
 
+        {
+            id: 18,
+            category: 'projects',
+            image: '/images/gallery/curtains-13.jpg',
+            title: 'Layered Window Treatment',
+        },
+
+        {
+            id: 19,
+            category: 'projects',
+            image: '/images/gallery/curtains-14.jpg',
+            title: 'Layered Window Treatment',
+        },
+
+
 
 
 
@@ -132,63 +147,63 @@ export default function GalleryPage() {
         // --- Products ---
        
          {
-            id: 18,
+            id: 20,
             category: 'products',
             image: '/images/gallery/towels-1-products.jpg',
             title: 'Bath Towels',
         },
 
         {
-            id: 19,
+            id: 21,
             category: 'products',
             image: '/images/gallery/towels-2-products.jpg',
             title: 'Face Towels',
         },
 
         {
-            id: 20,
+            id: 22,
             category: 'products',
             image: '/images/gallery/towels-3-products.jpg',
             title: 'Face Towels',
         },
 
         {
-            id: 21,
+            id: 23,
             category: 'products',
             image: '/images/gallery/cushion-1-product.jpg',
             title: 'A Big Selection Of Handmade Cushions',
         },
 
         {
-            id: 22,
+            id: 24,
             category: 'products',
             image: '/images/gallery/cushion-2-product.jpg',
             title: 'Decor Cushions',
         },
 
         {
-            id: 23,
+            id: 25,
             category: 'products',
             image: '/images/gallery/cushion-3-product.jpg',
             title: 'Decor Cushions',
         },
 
         {
-            id: 24,
+            id: 26,
             category: 'products',
             image: '/images/gallery/cushion-6-product.jpg',
             title: 'Decor Cushions',
         },
 
         {
-            id: 25,
+            id: 27,
             category: 'products',
             image: '/images/gallery/cushion-7-product.jpg',
             title: 'Decor Cushions',
         },
 
         {
-            id: 26,
+            id: 28,
             category: 'products',
             image: '/images/gallery/bedsheets-1-products.jpg',
             title: 'Wide Selection of Bedsheets',
