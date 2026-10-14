@@ -17,7 +17,7 @@ export default function ContactPage() {
             id: 2,
             label: 'Email Us',
             value: 'info@modernhome.com',
-            link: 'mailto:info@modernhome.com',
+            link: 'mailto:elenamixail77@icloud.com',
             icon: (
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <rect x="2" y="4" width="20" height="16" rx="2" />
@@ -83,7 +83,7 @@ export default function ContactPage() {
                         </div>
                         <div className="contact-info-item">
                             <span className="contact-info-label">Email</span>
-                            <a href="mailto:info@modernhome.com" className="contact-info-value">info@modernhome.com</a>
+                            <a href="mailto:elenamixail77@icloud.com" className="contact-info-value">info@modernhome.com</a>
                         </div>
                         <div className="contact-info-item">
                             <span className="contact-info-label">Working Hours</span>

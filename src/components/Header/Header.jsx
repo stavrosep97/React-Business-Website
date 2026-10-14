@@ -20,7 +20,7 @@ export default function Header() {
           </div>
           <div className="top-bar-right">
             <a href="tel:+35726948181">📞 +357 26948181</a>
-            <a href="mailto:info@modernhome.com">✉️ info@modernhome.com</a>
+            <a href="mailto:elenamixail77@icloud.com">✉️ info@modernhome.com</a>
           </div>
         </div>
       </div>

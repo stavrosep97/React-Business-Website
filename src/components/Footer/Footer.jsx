@@ -54,7 +54,7 @@ export default function Footer() {
                   <rect x="2" y="4" width="20" height="16" rx="2" />
                   <path d="m2 7 10 6 10-6" />
                 </svg>
-                <a href="mailto:info@modernhome.com">info@modernhome.com</a>
+                <a href="mailto:elenamiixail77@icloud.com">info@modernhome.com</a>
               </li>
               <li>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
