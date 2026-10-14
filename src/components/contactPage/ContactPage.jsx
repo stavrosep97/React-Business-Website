@@ -87,7 +87,7 @@ export default function ContactPage() {
                         </div>
                         <div className="contact-info-item">
                             <span className="contact-info-label">Working Hours</span>
-                            <span className="contact-info-value">Mon-Sat: 09:00am - 18:00pm</span>
+                            <span className="contact-info-value">Mon-Fri: 09:30am - 13:00pm & 15:00pm - 18:00pm <br /> Wed & Sat: 09:30am - 13:00pm <br />Sun: Closed</span>
                         </div>
                     </div>
 

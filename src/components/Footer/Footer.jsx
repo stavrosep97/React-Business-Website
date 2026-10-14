@@ -61,7 +61,7 @@ export default function Footer() {
                   <circle cx="12" cy="12" r="10" />
                   <path d="M12 6v6l4 2" />
                 </svg>
-                <span>Mon-Sat: 09:00am - 18:00pm</span>
+                <span>Mon-Fri: 09:30am - 13:00pm & 15:00pm - 18:00pm <br /> Wed & Sat: 09:30am - 13:00pm <br />Sun: Closed</span>
               </li>
             </ul>
           </div>
