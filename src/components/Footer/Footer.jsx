@@ -21,7 +21,7 @@ export default function Footer() {
 
           {/* Useful Information */}
           <div className="footer-col">
-            <h4 className="footer-heading">USEFUL INFORMATION</h4>
+            <h4 className="footer-heading">USEFULL INFORMATION</h4>
             <ul className="footer-links">
               <li><a href="/">Home</a></li>
               <li><a href="/about">About Us</a></li>
